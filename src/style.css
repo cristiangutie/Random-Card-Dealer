@@ -1,1 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+p {
+  margin: 0;
+}
+
+.middle-sign {
+  font-size: 11rem;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /*  for IE  */
+
+  /* 	for browsers supporting webkit (such as chrome, firefox, safari etc.). */
+  -webkit-transform: rotate(180deg);
+}
+
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.red {
+  color: red;
+}
