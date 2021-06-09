@@ -36,7 +36,6 @@ function randomCardGenerator() {
 window.onload = function() {
   //write your code here
   randomCardGenerator();
-  console.log(randomCard);
   let randomNumber = document.querySelectorAll(".number");
   if (randomCard.cardNumber === "JOKER") {
     document.getElementsByClassName(
