@@ -40,10 +40,10 @@ window.onload = function() {
   if (randomCard.cardNumber === "JOKER") {
     document.getElementsByClassName(
       "number"
-    )[0].innerHTML = `<span class="black vertical-text">${randomCard.cardNumber}</span>`;
+    )[0].innerHTML = `<span class="black vertical-text small">${randomCard.cardNumber}</span>`;
     document.getElementsByClassName(
       "number"
-    )[1].innerHTML = `<span class="black vertical-text rotate">${randomCard.cardNumber}</span>`;
+    )[1].innerHTML = `<span class="black vertical-text small">${randomCard.cardNumber}</span>`;
   } else {
     randomNumber.forEach(element => {
       randomCard.cardSign === "♥" || randomCard.cardSign === "♦"
@@ -55,7 +55,7 @@ window.onload = function() {
   let randomSign = document.querySelectorAll(".sign");
   if (randomCard.cardNumber === "JOKER") {
     document.getElementsByClassName("middle-sign")[0].innerHTML = `<img
-    class="card-img-top"
+    class="card-img-top joker"
     src="./joker.png"
     alt="playing card sign"
   />`;
